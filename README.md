@@ -1,6 +1,6 @@
 # VincaCareAssignment
 
-UI and API Testing Assignment
+UI and API Testing Assignment.
 This project created with Ruby to simplify the development and make the project more readable.
 
 ## Tech/Framework used
@@ -39,9 +39,13 @@ Login with the test account credentials on USPS web site. Used parametrization t
 ## How to Use?
 
 Download the code on your local machine.
+
 Ruby ver. 2.6.3
+
 Ruby gems mention in Gemfile
+
 geckodriver to run on Firefox
+
 chromedriver to run Chrome
 
 
