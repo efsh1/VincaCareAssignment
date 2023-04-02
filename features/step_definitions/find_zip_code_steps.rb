@@ -15,7 +15,6 @@ end
 
 
 Then(/^I select "([^"]*)" from states drop down list$/) do |state|
-  #expect(states_dropdown).to include state
   usps.find_zip_code_page.select_state state
 end
 

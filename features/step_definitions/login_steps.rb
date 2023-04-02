@@ -16,13 +16,11 @@ end
 
 And(/^I type "([^"]*)" as a password$/) do |password|
   usps.login_page.password_field.send_keys password
-  sleep 5
 end
 
 
 Then(/^I click on Signin button$/) do
   usps.login_page.signin_button.click
-  sleep 5
 end
 
 
