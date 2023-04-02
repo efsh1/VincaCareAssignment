@@ -53,3 +53,10 @@ Download geckodriver to run on Firefox or chromedriver to run on Chrome.
 
 Run in terminal:
 cucumber --format html --out report.html --format pretty
+
+
+## Screenshots
+
+![Screen Shot 2023-04-01 at 3 50 13 PM](https://user-images.githubusercontent.com/51335240/229326400-5592db58-1d7a-42da-86cd-c07014b3a7b3.png)
+
+
