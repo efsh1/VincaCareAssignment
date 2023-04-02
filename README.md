@@ -21,9 +21,11 @@ This project includes three features files to cover UI and API automation proces
 
 ### api_testing.feature
 API testing - positive and negative cases.
+
 Positive Case:
 GET request to weather API - parsing the body responce we find the humidity level for the given cities. 
 This feature file build as Scenario Online to scale the testing approach.
+
 Negative Case:
 GET request to weather API - asking information for the incorrect city ID to receive 400.
 
@@ -42,11 +44,9 @@ Download the code on your local machine.
 
 Ruby ver. 2.6.3
 
-Ruby gems mention in Gemfile
+Install ruby gems mention in Gemfile.
 
-geckodriver to run on Firefox
-
-chromedriver to run Chrome
+Download geckodriver to run on Firefox or chromedriver to run on Chrome.
 
 
 ## Tests
