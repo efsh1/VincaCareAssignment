@@ -1,6 +1,6 @@
 Given /^I make an API request for city ID ([^"]*)$/ do |id|
   # creating request API url
-  request = URI("https://api.openweathermap.org/data/2.5/weather?id=#{id}&appid=e3949ab69978029e84f35f84976f7f43")
+  request = URI("https://api.openweathermap.org/data/2.5/weather?id=#{id}&appid=")
   # send get request and store response in 'response' variable
   response = Net::HTTP.get_response(request)
 
